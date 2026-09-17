@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+/* Theme system layer */
+.theme-midnight {
+  color-scheme: dark;
+}
+
+.theme-midnight body,
+.theme-midnight main {
+  background-color: #020617;
+  color: #f8fafc;
+}
+
+.theme-midnight .bg-slate-50,
+.theme-midnight .bg-gray-50 {
+  background-color: #0b1120 !important;
+}
+
+.theme-midnight .bg-white {
+  background-color: #0f172a !important;
+}
+
+.theme-midnight .text-slate-900,
+.theme-midnight .text-gray-900 {
+  color: #f8fafc !important;
+}
+
+.theme-midnight .text-slate-800,
+.theme-midnight .text-gray-800 {
+  color: #e2e8f0 !important;
+}
+
+.theme-midnight .text-slate-700,
+.theme-midnight .text-gray-700 {
+  color: #cbd5e1 !important;
+}
+
+.theme-midnight .text-slate-600,
+.theme-midnight .text-gray-600 {
+  color: #94a3b8 !important;
+}
+
+.theme-midnight .border-slate-200,
+.theme-midnight .border-slate-100,
+.theme-midnight .border-gray-200,
+.theme-midnight .border-gray-100 {
+  border-color: #1e293b !important;
+}
+
+/* Theme Warm Editorial */
+.theme-warm body,
+.theme-warm main {
+  background-color: #faf7f2;
+  color: #292524;
+}
+
+.theme-warm .bg-slate-50,
+.theme-warm .bg-gray-50 {
+  background-color: #f5efe6 !important;
+}
+
+.theme-warm .bg-white {
+  background-color: #fcfbf9 !important;
+}
+
+.theme-warm .text-slate-900,
+.theme-warm .text-gray-900 {
+  color: #1c1917 !important;
+}
+
+.theme-warm .text-slate-800,
+.theme-warm .text-gray-800 {
+  color: #292524 !important;
+}
+
+.theme-warm .text-slate-700,
+.theme-warm .text-gray-700 {
+  color: #44403c !important;
+}
+
+.theme-warm .text-slate-600,
+.theme-warm .text-gray-600 {
+  color: #57534e !important;
+}
+
+.theme-warm .border-slate-200,
+.theme-warm .border-slate-100,
+.theme-warm .border-gray-200,
+.theme-warm .border-gray-100 {
+  border-color: #e7dfd5 !important;
+}
+
+/* Theme Nordic Sage */
+.theme-nordic body,
+.theme-nordic main {
+  background-color: #f2f7f5;
+  color: #064e3b;
+}
+
+.theme-nordic .bg-slate-50,
+.theme-nordic .bg-gray-50 {
+  background-color: #e8f2ef !important;
+}
+
+.theme-nordic .bg-white {
+  background-color: #f8fbf9 !important;
+}
+
+.theme-nordic .text-slate-900,
+.theme-nordic .text-gray-900 {
+  color: #022c22 !important;
+}
+
+.theme-nordic .text-slate-800,
+.theme-nordic .text-gray-800 {
+  color: #064e3b !important;
+}
+
+.theme-nordic .text-slate-700,
+.theme-nordic .text-gray-700 {
+  color: #047857 !important;
+}
+
+.theme-nordic .text-slate-600,
+.theme-nordic .text-gray-600 {
+  color: #0f766e !important;
+}
+
+.theme-nordic .border-slate-200,
+.theme-nordic .border-slate-100,
+.theme-nordic .border-gray-200,
+.theme-nordic .border-gray-100 {
+  border-color: #ccded9 !important;
+}

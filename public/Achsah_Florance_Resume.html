@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Achsah Florance - Resume</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #1e293b;
+      background: #f8fafc;
+      padding: 40px 20px;
+      line-height: 1.5;
+    }
+    .resume-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 40px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    .header {
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    .header h1 {
+      font-size: 26px;
+      color: #0f172a;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+    .header .subtitle {
+      font-size: 15px;
+      font-weight: 600;
+      color: #2563eb;
+      margin-bottom: 8px;
+    }
+    .header .contact-info {
+      font-size: 13px;
+      color: #475569;
+    }
+    .section {
+      margin-bottom: 22px;
+    }
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #1e3a8a;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 4px;
+      margin-bottom: 12px;
+    }
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 4px;
+    }
+    .exp-title {
+      font-weight: 700;
+      font-size: 15px;
+      color: #0f172a;
+    }
+    .exp-company {
+      font-weight: 600;
+      color: #2563eb;
+    }
+    .exp-date {
+      font-size: 12px;
+      color: #64748b;
+      font-weight: 500;
+    }
+    .exp-location {
+      font-size: 12px;
+      color: #64748b;
+      margin-bottom: 8px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      font-size: 13px;
+      color: #334155;
+    }
+    li {
+      margin-bottom: 4px;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      font-size: 13px;
+    }
+    .skill-category {
+      background: #f8fafc;
+      padding: 10px 12px;
+      border-left: 3px solid #3b82f6;
+    }
+    .skill-cat-title {
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 4px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    .print-bar {
+      max-width: 800px;
+      margin: 0 auto 16px auto;
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+    }
+    .btn {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-secondary {
+      background: #e2e8f0;
+      color: #1e293b;
+    }
+    @media print {
+      body {
+        background: #ffffff;
+        padding: 0;
+      }
+      .print-bar {
+        display: none;
+      }
+      .resume-container {
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="print-bar">
+    <button class="btn" onclick="window.print()">Print / Save as PDF</button>
+  </div>
+  <div class="resume-container">
+    <div class="header">
+      <h1>Achsah Florance</h1>
+      <div class="subtitle">QA Analyst | MCA Student</div>
+      <div class="contact-info">
+        Email: achsahflorance@gmail.com &nbsp;|&nbsp; Location: Guntur, India
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Professional Summary</div>
+      <p style="font-size: 13px; color: #334155;">
+        Dedicated QA Analyst with hands-on experience in manual and automation testing across complex banking applications. Skilled in test case execution, regression and smoke testing, Selenium WebDriver, Cucumber BDD framework, Jira defect tracking, and SQL validation. Currently pursuing Master of Computer Applications (MCA) at Vignan University.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Professional Experience</div>
+      <div class="exp-header">
+        <div>
+          <span class="exp-title">QA Analyst</span> – <span class="exp-company">Cognizant</span>
+        </div>
+        <div class="exp-date">Oct 2024 – Apr 2026</div>
+      </div>
+      <div class="exp-location">Guntur, India</div>
+      <ul>
+        <li>Executed functional and manual test cases for banking applications.</li>
+        <li>Performed regression and smoke testing across release cycles.</li>
+        <li>Logged, tracked, and verified defects using Jira.</li>
+        <li>Collaborated with developers, business analysts, and stakeholders to clarify requirements.</li>
+        <li>Maintained and executed Selenium-Cucumber automation scripts.</li>
+        <li>Supported User Acceptance Testing (UAT) for business workflows.</li>
+        <li>Retested reported defects and verified bug resolution.</li>
+        <li>Conducted production validation and post-deployment verification.</li>
+        <li>Participated in Agile ceremonies including daily stand-ups and sprint planning.</li>
+        <li>Improved banking domain knowledge and automation debugging skills.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Technical Skills</div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="skill-cat-title">Testing Methodologies</div>
+          Manual Testing, Functional Testing, Regression Testing, Smoke Testing, UAT, Production Validation
+        </div>
+        <div class="skill-category">
+          <div class="skill-cat-title">Automation Frameworks</div>
+          Selenium WebDriver, Cucumber (BDD)
+        </div>
+        <div class="skill-category">
+          <div class="skill-cat-title">Programming & Databases</div>
+          Java, SQL, Python
+        </div>
+        <div class="skill-category">
+          <div class="skill-cat-title">Tools & Domain</div>
+          Jira, Agile Scrum, Banking Applications, Account Management, Workflows
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Projects</div>
+      <div class="exp-header">
+        <div>
+          <span class="exp-title">MediExplain AI</span> – <span class="exp-company">Healthcare AI Web Application</span>
+        </div>
+        <div class="exp-date">AI-ML Project / MCA Studies</div>
+      </div>
+      <div style="font-size: 13px; color: #475569; margin-bottom: 6px;">
+        Technologies: Google AI Studio, Generative AI, AI/ML, Web Technologies
+      </div>
+      <p style="font-size: 13px; color: #334155;">
+        A healthcare-focused AI web application that explains medical and biological terms in simple language and helps users better understand health information.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Education</div>
+      <div style="margin-bottom: 10px;">
+        <div class="exp-header">
+          <div><strong>Master of Computer Applications (MCA)</strong> – 1st Year</div>
+          <div class="exp-date">Jul 2026 – Present</div>
+        </div>
+        <div style="font-size: 13px; color: #475569;">Vignan University, Vadlamudi, Guntur</div>
+      </div>
+      <div>
+        <div class="exp-header">
+          <div><strong>Bachelor of Computer Applications (BCA)</strong></div>
+          <div class="exp-date">Jun 2024</div>
+        </div>
+        <div style="font-size: 13px; color: #475569;">St. Ann's College for Women, Guntur</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Certifications</div>
+      <ul>
+        <li><strong>Salesforce Project Internship</strong> – Internship Certificate</li>
+        <li><strong>Selenium Automation Testing</strong> – Professional Certification</li>
+        <li><strong>Manual Testing Fundamentals</strong> – Foundational Certification</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Internship</div>
+      <div class="exp-header">
+        <div class="exp-title">Salesforce Project Internship</div>
+      </div>
+      <p style="font-size: 13px; color: #334155; margin-top: 4px;">
+        Worked as an intern on a Salesforce-based project and completed practical training in: Salesforce fundamentals, organizational setup, Apex programming, testing, and debugging.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Key Strengths & Achievements</div>
+      <div style="font-size: 13px; color: #334155;">
+        <strong>Strengths:</strong> Detail-Oriented, Strong Analytical Skills, Good Communication, Team Collaboration, Problem Solving, Quick Learner.
+      </div>
+      <div style="font-size: 13px; color: #334155; margin-top: 6px;">
+        <strong>Achievements:</strong> Actively participated in Agile stand-ups and sprint planning; contributed to improving test coverage and defect tracking efficiency.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
